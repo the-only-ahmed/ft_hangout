@@ -1,4 +1,4 @@
-package com.hangout;
+package activities;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -19,6 +19,9 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
+
+import com.hangout.ProfileAdapter;
+import com.hangout.R;
 
 import java.util.ArrayList;
 

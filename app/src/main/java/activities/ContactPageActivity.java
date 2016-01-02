@@ -1,4 +1,4 @@
-package com.hangout;
+package activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -17,6 +17,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
+
+import com.hangout.R;
 
 import DataBase.Contact;
 import DataBase.ContactDB;

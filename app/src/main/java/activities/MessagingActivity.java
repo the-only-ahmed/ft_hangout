@@ -1,4 +1,4 @@
-package com.hangout;
+package activities;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -15,6 +15,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+
+import com.hangout.R;
 
 import java.util.ArrayList;
 
@@ -42,7 +44,6 @@ public class MessagingActivity extends AppCompatActivity {
             getWindow().setNavigationBarColor(getResources().getColor(MainActivity.colId));
             getWindow().setStatusBarColor(getResources().getColor(MainActivity.colId));
         }
-
 
         intentFilter = new IntentFilter();
         intentFilter.addAction("SMS_RECEIVED_ACTION");

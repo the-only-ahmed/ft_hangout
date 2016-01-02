@@ -24,7 +24,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name=".MainActivity"
+            android:name="activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -33,13 +33,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CreateContactActivity"
+            android:name="activities.CreateContactActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".ContactPageActivity"
+            android:name="activities.ContactPageActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".MessagingActivity"
+            android:name="activities.MessagingActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
         <receiver android:name=".SMSReceiver">
         <intent-filter>
