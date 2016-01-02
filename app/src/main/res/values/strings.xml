@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Hangout</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="name">Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="email">Email Adress</string>
+    <string name="adress">Adress</string>
+    <string name="saveBtn">Save</string>
+
+    <string name="emptyNP">name or phone Nb is empty</string>
+    <string name="color">Change App main color</string>
+
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="bib">From Gallery</string>
+    <string name="takpic">Take a picture</string>
+
+    <string name="favoris">Favourites</string>
+    <string name="other">All Contacts</string>
+</resources>

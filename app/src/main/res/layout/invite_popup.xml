@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_settings"
+        android:layout_width="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/annuler"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/cancel"
+            android:textColor="@color/green"
+            android:background="@color/white"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/ExistantCunh"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/bib"
+            android:textColor="@color/green"
+            android:background="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@+id/annuler"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/NewCunh"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/takpic"
+            android:background="@color/white"
+            android:layout_above="@+id/ExistantCunh"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/green"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/NewCunh"
+            android:background="@color/grey"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

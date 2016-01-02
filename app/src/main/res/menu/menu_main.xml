@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <group android:id="@+id/group_color">
+        <item android:id="@+id/menuRed"
+            android:title="@string/red"/>
+        <item android:id="@+id/menuGreen"
+            android:title="@string/green"/>
+        <item android:id="@+id/menuBlue"
+            android:title="@string/blue"/>
+    </group>
+</menu>

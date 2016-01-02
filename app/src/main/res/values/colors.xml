@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00FF00</color>
+    <color name="colorPrimaryDark">#00FF00</color>
+    <color name="colorAccent">#00FF00</color>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#ECECEC</color>
+    <color name="transp">#80000000</color>
+
+    <color name="pressed_text">#FFFFFF</color>
+    <color name="default_text">#9A9A9A</color>
+    <color name="pressed_color">#39B396</color>
+</resources>

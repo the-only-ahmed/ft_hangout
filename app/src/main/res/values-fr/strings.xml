@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hangout</string>
+    <string name="action_settings">Parametres</string>
+
+    <string name="name">Prenom</string>
+    <string name="lastName">Nom</string>
+    <string name="phone">Numero de telephone</string>
+    <string name="email">Addresse E-Mail</string>
+    <string name="adress">Adresse</string>
+    <string name="saveBtn">Sauvegarder</string>
+
+    <string name="emptyNP">Prenom ou numero de telephone est vide</string>
+    <string name="color">Changer la couleur de l\'application</string>
+
+    <string name="red">Rouge</string>
+    <string name="green">Vert</string>
+    <string name="blue">Bleu</string>
+
+    <string name="cancel">Annuler</string>
+    <string name="bib">Depuis la bibliothèque</string>
+    <string name="takpic">Prendre une photo</string>
+
+    <string name="favoris">Favoris</string>
+    <string name="other">Tous les contacts</string>
+</resources>
